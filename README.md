@@ -163,3 +163,9 @@ to:
 - Focused on building a solid runtime foundation
 
 ---
+
+## License
+
+This project is licensed under the Apache License 2.0.
+
+See the [LICENSE](./LICENSE) file for details.
