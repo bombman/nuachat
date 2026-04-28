@@ -1,0 +1,16 @@
+cat <<EOF > .gitignore
+# Rust
+target/
+Cargo.lock
+
+# Node
+node_modules/
+dist/
+build/
+
+# Env
+.env
+
+# OS
+.DS_Store
+EOF

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Theme tokens ด้วย CSS variables */
+:root {
+  --bg: 12 14 18;         /* neutral-950-ish */
+  --panel: 255 255 255;  /* for translucent panels */
+  --border: 255 255 255;
+  --muted: 255 255 255;
+}
+
+/* Pink */
+.theme-pink {
+  --bg: 20 8 16;         /* pink-950-ish */
+  --panel: 255 110 199;
+  --border: 255 110 199;
+  --muted: 255 228 240;
+}
+
+/* Dark Comfort */
+.theme-dark {
+  --bg: 18 18 18;
+  --panel: 255 255 255;
+  --border: 255 255 255;
+  --muted: 230 230 230;
+}
+
+/* ฟอนต์ (แก้ไทยเพี้ยน) */
+body {
+  font-family:
+    "Inter",
+    "Noto Sans Thai",
+    "Noto Sans",
+    system-ui,
+    sans-serif;
+}
